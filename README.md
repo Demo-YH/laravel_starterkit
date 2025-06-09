@@ -9,8 +9,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Laravel12-l?style=plastic&logo=laravel&logoColor=%23ffffff&labelColor=%23FF2D20&color=%23FF2D20">
 <img alt="Static Badge" src="https://img.shields.io/badge/bun-b?style=plastic&logo=bun&logoColor=%23ffffff&labelColor=%23000000&color=%23000000">
 <img alt="Static Badge" src="https://img.shields.io/badge/bootstrap-b?style=plastic&logo=bootstrap&logoColor=%23ffffff&labelColor=%237952B3&color=%237952B3">
-<img alt="Static Badge" src="https://img.shields.io/badge/vite-v?style=plastic&logo=vite&logoColor=%23ffffff&labelColor=%23646CFF&color=%23646CFF">
-<img alt="Static Badge" src="https://img.shields.io/badge/-jetstream?style=plastic&logo=jetstream&label=jetstream&labelColor=c1c1c1&color=c1c1c1">  
+<img alt="Static Badge" src="https://img.shields.io/badge/vite-v?style=plastic&logo=vite&logoColor=%23ffffff&labelColor=%23646CFF&color=%23646CFF">  
 
 
 ## 構築手順  
@@ -53,6 +52,7 @@
 #### ※php.newでの環境構築と同等にしたかったので、上記packageを選択しているのでpackageはお好みでどうぞ  
 #### 27. .env、config/app.phpにて言語設定変更  
 #### 28. composer require askdkc/breezejp --dev　コマンドで翻訳ファイル取得  
+#### 29. php artisan breezejp　コマンドで日本語設定  
 #### ※laravel12再度表示確認  
 #### ※個人お試し用以外での用途は非推奨  
 ## git cloneg後  
