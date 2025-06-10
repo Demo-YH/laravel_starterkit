@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 42" {{ $attributes }}>
-    <path 
-        fill="currentColor" 
-        fill-rule="evenodd" 
-        clip-rule="evenodd"
-        d="M17.2 5.633 8.6.855 0 5.633v26.51l16.2 9 16.2-9v-8.442l7.6-4.223V9.856l-8.6-4.777-8.6 4.777V18.3l-5.6 3.111V5.633ZM38 18.301l-5.6 3.11v-6.157l5.6-3.11V18.3Zm-1.06-7.856-5.54 3.078-5.54-3.079 5.54-3.078 5.54 3.079ZM24.8 18.3v-6.157l5.6 3.111v6.158L24.8 18.3Zm-1 1.732 5.54 3.078-13.14 7.302-5.54-3.078 13.14-7.3v-.002Zm-16.2 7.89 7.6 4.222V38.3L2 30.966V7.92l5.6 3.111v16.892ZM8.6 9.3 3.06 6.222 8.6 3.143l5.54 3.08L8.6 9.3Zm21.8 15.51-13.2 7.334V38.3l13.2-7.334v-6.156ZM9.6 11.034l5.6-3.11v14.6l-5.6 3.11v-14.6Z"
-    />
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" id="Japanese-Alphabet--Streamline-Flex-Neon" height="14" width="14">
+  <desc>
+    Japanese Alphabet Streamline Icon: https://streamlinehq.com
+  </desc>
+  <g id="japanese-alphabet">
+    <path id="Vector 1087" stroke="#c71dff" stroke-linecap="round" stroke-linejoin="round" d="M1 3.01155c3.82234 0.46043 7.70057 0.25639 11.5 -0.5" stroke-width="1"></path>
+    <path id="Vector 1088" stroke="#c71dff" stroke-linecap="round" stroke-linejoin="round" d="M5.9998 0.75c-0.9998 2.25 -1.3 10.1 1.5 12.5" stroke-width="1"></path>
+    <path id="Vector 1223" stroke="#c71dff" stroke-linecap="round" stroke-linejoin="round" d="M9.75007 5.625c0.15923 2.33529 -3.04837 6.514 -5.96375 6.9404 -0.96359 0.1409 -2.2626 -0.1557 -2.42385 -1.2868C0.869787 7.82271 5.44534 6.28348 7.96881 6.75 11.6876 7.4375 13.8126 10.6875 10.25 13" stroke-width="1"></path>
+  </g>
 </svg>

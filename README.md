@@ -35,21 +35,23 @@
 #### 16. composer global require laravel/installer　コマンドでLaravelインストーラーをインストール  
 #### 17. export PATH=$HOME/.composer/vendor/bin:$PATH　コマンドでlaravelコマンドを使用するためのパスを通す
 #### 18. source ~/.bashrc　コマンドで変更状態を反映させる
+#### ※スターターキットをDocker環境で構築したかったので、上記手順でLaravelプロジェクトの作成となる  
+#### ※Livewireスターターキットを選択すると、flux(resources/views/flux)も入ってる  
 #### 19. laravel new example　コマンドでLaravelのプロジェクトを作成  
 #### 20. スターターキットの選択  
-#### ※npm installの実行はしない、bunを使用する為  
+#### ※使用したいpackageを選択する  
+#### ※npm installの実行はしない、bunを使用する為(npm選択する場合はbunをインストールしない)  
 #### ※エラー：failed to open stream: Permission denied  
 #### chmod -R 777 storage　コマンドで解消  
 #### 21. cd example　コマンドでディレクトリ移動
 #### 22. composer require --dev "squizlabs/php_codesniffer=*"　コマンドでPHP_CodeSniffierのインストール  
-#### 23. bun install　コマンドでbunインストール  
-#### 24. bun run build　コマンド実行  
+#### 23. bun install　コマンドでbunインストール(npm選択した場合は、この手順は行わない)  
+#### 24. bun run build　コマンド実行(npm選択した場合は、この手順でなくnpmの実行を行う)  
 #### 25. mysql使用の為、".env"の下記内容を修正
 #### DB_CONNECTION=mysql　sqlite→mysql  
 #### DB_HOST=127.0.0.1　使用しているdb名に修正  
 #### DB_HOST以降からDB_PASSWORDまでのコメントアウト解除及び、自身で設定した内容への修正を行う  
 #### 26. php artisan migrate　コマンドでマイグレーション  
-#### ※php.newでの環境構築と同等にしたかったので、上記packageを選択しているのでpackageはお好みでどうぞ  
 #### 27. .env、config/app.phpにて言語設定変更  
 #### 28. composer require askdkc/breezejp --dev　コマンドで翻訳ファイル取得  
 #### 29. php artisan breezejp　コマンドで日本語設定  
@@ -57,9 +59,10 @@
 #### ※個人お試し用以外での用途は非推奨  
 ## git cloneg後  
 #### 1. docker exec -it conteinerID bashでコンテナにはいる  
-#### 2. composer update　コマンド実行でautoload.php作成  
-#### 3. cp .env.example .env　コマンドで.env作成  
-#### 4. php artisan key:generate　コマンド実行  
-#### 5. php artisan migrate　コマンド実行でdb再度作成  
-#### 6. bun install　コマンドでbunインストール  
-#### 7. bun run build　コマンド実行  
+#### 2. cd example　コマンドでディレクトリ移動  
+#### 3. composer update　コマンド実行でautoload.php作成  
+#### 4. cp .env.example .env　コマンドで.env作成  
+#### 5. php artisan key:generate　コマンド実行  
+#### 6. php artisan migrate　コマンド実行でdb再度作成  
+#### 7. bun install　コマンドでbunインストール  
+#### 8. bun run build　コマンド実行  
