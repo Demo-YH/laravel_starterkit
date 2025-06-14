@@ -66,3 +66,6 @@
 #### 6. php artisan migrate　コマンド実行でdb再度作成  
 #### 7. bun install　コマンドでbunインストール  
 #### 8. bun run build　コマンド実行  
+## 所感  
+#### 頑張らなくても素敵レイアウトｗｗ  
+#### dockerで使用するにはDockerfileの無いよう考えるの面倒くさい(楽なやり方あるのかもしれないけど)
