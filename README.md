@@ -36,6 +36,7 @@
 #### 17. export PATH=$HOME/.composer/vendor/bin:$PATH　コマンドでlaravelコマンドを使用するためのパスを通す
 #### 18. source ~/.bashrc　コマンドで変更状態を反映させる
 #### ※スターターキットをDocker環境で構築したかったので、上記手順でLaravelプロジェクトの作成となる  
+#### [公式](https://laravel.com/starter-kits)
 #### ※Livewireスターターキットを選択すると、flux(resources/views/flux)も入ってる  
 #### 19. laravel new example　コマンドでLaravelのプロジェクトを作成  
 #### 20. スターターキットの選択  
