@@ -69,7 +69,4 @@
 #### 8. bun run build　コマンド実行  
 ## 参考  
 [参考サイト](https://textpro.addisteria.com/)  
-## 所感  
-#### 頑張らなくても素敵レイアウトｗｗ  
-#### dockerで使用するにはDockerfileの書き方考えるの面倒くさい(楽なやり方あるのかもしれないけど)
-#### 参考で使用した内容(無料箇所)が、starterkitの環境構築は行うがlivewireでの実装で無かったので、本repositoryの内容となっている
+#### ※参考で使用した内容(無料箇所)が、starterkitの環境構築は行うがlivewireでの実装で無かったので、本repositoryの内容となっている
