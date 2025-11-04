@@ -18,5 +18,5 @@
 
 #### [環境手順はこちら](https://github.com/Demo-YH/Document/blob/master/laravel_12.md)
 ## 参考  
-[参考サイト](https://textpro.addisteria.com/)  
+#### [参考サイト](https://textpro.addisteria.com/)  
 #### ※参考で使用した内容(無料箇所)が、starterkitの環境構築は行うがlivewireでの実装で無かったので、本repositoryの内容となっている
