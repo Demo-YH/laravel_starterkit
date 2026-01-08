@@ -12,17 +12,19 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/vite-v?style=plastic&logo=vite&logoColor=%23ffffff&labelColor=%23646CFF&color=%23646CFF">  
 
 ## プロジェクト概要  
-本リポジトリは Laravel 公式 Starter Kits（Jetstream / Livewire）で
-生成される構成をベースに、Docker 環境でそのまま動作するよう整えた
-学習・検証用のサンプルアプリケーションです。
+Laravel 公式 Starter Kit（Livewire）をベースに作成した学習用サンプルアプリです。
+コーディング自体は参考サイトをもとに行いましたが、**Docker 環境や依存管理、環境構築フローは自分で設計・検証しています**。
+学習用ですが、実務で通用する設計・技術スタックを意識しています。
 
 ※ Starter Kit をローカル環境に直接インストールするのではなく、  
 Docker コンテナ内で完結させる構成を検証目的で採用しています。
 
 ## 学習・検証目的
-- bun / npm によるフロントエンド依存管理とビルド速度の差の検証  
-- Laravel Starter Kit を利用した場合と、ゼロから構成する場合の
-  初期開発効率・保守性の比較
+- Laravel Starter Kit の構造理解（Livewire / Jetstream / Breeze）
+- Docker 環境での Laravel + MySQL 構築経験（自力で設計・検証）
+- bun / npm によるフロントエンド依存管理とビルド速度比較
+- Livewire を使ったリアクティブ UI の理解
+- SPA 風フロントエンド設計とテスト駆動開発
 
 ## 主な機能
 
