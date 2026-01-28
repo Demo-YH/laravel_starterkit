@@ -20,7 +20,7 @@ Laravel 公式 Starter Kit（Livewire）をベースに作成した学習用サ�
 Docker コンテナ内で完結させる構成を検証目的で採用しています。
 
 ## 学習・検証目的
-- Laravel Starter Kit の構造理解（Livewire / Jetstream / Breeze）
+- Laravel Starter Kit の構造理解（Livewire）
 - Docker 環境での Laravel + MySQL 構築経験（自力で設計・検証）
 - bun / npm によるフロントエンド依存管理とビルド速度比較
 - Livewire を使ったリアクティブ UI の理解
@@ -81,17 +81,16 @@ bun run build
   - `Models/` - Eloquent モデル（例: `User.php`, `Post.php`）
 - `bootstrap/` - フレームワーク初期化
 - `config/` - 設定ファイル群
-- `database/` - マイグレーション、ファクトリ、シーダー、SQLite ファイル
+- `database/` - マイグレーション、ファクトリ、シーダー、MySQL ファイル
   - `migrations/` - テーブル定義（投稿テーブルや user_id を追加するマイグレーションあり）
 - `public/` - 公開ディレクトリ（Vite のビルド成果物が `public/build` に配置されます）
 - `resources/` - Blade テンプレート、JS/CSS ソース（`resources/js`, `resources/css`）
 - `routes/` - ルーティング（`web.php`, `auth.php` など）
-- `tests/` - PHPUnit / Laravel のテスト
 - `vendor/` - Composer 管理の依存ライブラリ
 
 ## 設計・実装の特徴
 - Livewire を使うことで、JavaScript を大量に書かずに「ページ上の小さなインタラクション（リアクティブ UI）」を実装できます。サーバー側で状態を持ち、部分的に DOM を差分更新します。
 - Flux / Volt は Livewire エコシステムの拡張で、状態管理や UI コンポーネント化をより整然と行うための小さなレイヤーです。
 - フロントエンドは Vite + Tailwind を採用しており、開発時のホットリロードや高速ビルドが可能です。
-- データベースは開発用に SQLite を使いやすく設定しており、簡単にローカルで試せます。本番では MySQL / PostgreSQL 等に切り替えて使います。
+- データベースは開発用に MySQL を設定しており、簡単にローカルで試せます。本番では MySQL / PostgreSQL 等に切り替えて使います。
 - テストが最初から用意されているため、機能追加時に `php artisan test` で回帰をチェックできます。
